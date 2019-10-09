@@ -1,0 +1,29 @@
+{
+  "name": "@bhws/gridsome-source-trello",
+  "version": "0.0.1",
+  "description": "Trello Board source for Gridsome",
+  "author": "Ben Sheedy <web@bensheedy.com> (http://bensheedy.com/)",
+  "repository": "https://github.com/sanscheese/gridsome-source-trello",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "keywords": [
+    "gridsome",
+    "gridsome-plugin",
+    "gridsome-source",
+    "trello"
+  ],
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8.3"
+  },
+  "devDependencies": {
+    "standard-version": "^7.0.0"
+  }
+}
