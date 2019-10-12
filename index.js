@@ -33,7 +33,6 @@ class TrelloSource {
       const cards = actions.addCollection(`${options.typeNamePrefix}Card`)
       const lists = actions.addCollection( `${options.typeNamePrefix}List`)
 
-      console.log(`Loading data from ${baseUrl}`)
       const { data } = await this.client.get('batch', {
         params: {
           urls: 
